@@ -9,7 +9,7 @@ const Experience = () => {
       className="border-b border-neutral-800 pb-16 pt-16 px-4 sm:px-6 lg:px-8"
     >
       {/* Heading */}
-      <motion.h1
+      <motion.h1 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}

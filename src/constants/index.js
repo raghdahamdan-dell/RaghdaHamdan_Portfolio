@@ -11,7 +11,7 @@ export const EXPERIENCES = [
     year: "March 2023 - Present",
     role: " Business Development manager solution",
     company: "Avientek",
-    description: `📦 Providing hands-on training for end users, technical teams, and stakeholders on new and existing hardware and software systems.\n
+    description: `📦     Providing hands-on training for end users, technical teams, and stakeholders on new and existing hardware and software systems.\n
 🧩 Customizing training sessions based on user roles, organizational needs, and solution complexity to maximize understanding and adoption.\n
 🔧 Demonstrating solution functionality, best practices, and troubleshooting techniques to ensure confidence and independence in daily operations.\n
 📞 Offering post-training support to address user queries, refine workflows, and reinforce best practices.\n
