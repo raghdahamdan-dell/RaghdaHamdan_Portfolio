@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: "Inter", sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Theme transition */
+* {
+    @apply transition-colors duration-400 ease-in-out;
+}
+
+/* Dark mode styles */
+.dark {
+    @apply bg-dark-secondary text-dark-text;
+}
+
+.dark body {
+    @apply bg-dark-secondary;
+}
+
+.dark .bg-neutral-950 {
+    @apply bg-dark-primary;
+}
+
+.dark .border-neutral-900 {
+    @apply border-dark-accent;
+}
+
+.dark .border-neutral-800 {
+    @apply border-dark-accent;
+}
+
+.dark .text-neutral-300 {
+    @apply text-dark-text;
+}
+
+.dark .text-neutral-400 {
+    @apply text-gray-300;
+}
+
+.dark .bg-neutral-900 {
+    @apply bg-dark-accent;
+}
